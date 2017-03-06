@@ -74,12 +74,14 @@ mainApp.directive('birthdaypickerDirective', function() {
                 scope.chosenDay = day;
                 day = "0" + day;
                 day = day.slice(-2)
-
+                var tempmonth=scope.chosenMonth+1;
+                tempmonth="0"+tempmonth;
+                tempmonth=tempmonth.slice(-2)
                 //The model for final result
-                scope.Birthdate = scope.chosenMonth + "/" + day + "/" + scope.chosenYear; 
+                scope.Birthdate = tempmonth + "/" + day + "/" + scope.chosenYear; 
                 alert("You have selected: "+scope.Birthdate)
                 //Alternative option
-                //scope.Birthdate+" "+$scope.monthNamesShort[$scope.chosenMonth]+" "+$scope.chosenYear;
+                //scope.Birthdate= day+" "+$scope.monthNamesShort[$scope.chosenMonth]+" "+$scope.chosenYear;
             }
         }
 
