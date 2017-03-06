@@ -1,3 +1,4 @@
+// Change mainApp to you app and include directive in view;
 mainApp.directive('birthdaypickerDirective', function() {
     function link(scope) {
         //Init - you can add languages here
