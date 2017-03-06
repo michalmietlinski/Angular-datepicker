@@ -17,4 +17,4 @@ Implementation:
  2. Include html in correct content folder;
  3. Change in JS the path to your html;
  4. Add CSS/Sass to your project;
- 5. Add "<birthdaypicker-Directive></birthdaypicker-Directive>" in view;
+ 5. Add `<birthdaypicker-Directive></birthdaypicker-Directive>` in view;
