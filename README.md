@@ -18,3 +18,9 @@ Implementation:
  3. Change in JS the path to your html;
  4. Add CSS/Sass to your project;
  5. Add `<birthdaypicker-Directive></birthdaypicker-Directive>` in view;
+
+ 
+ Sample input:
+ <input type="text"
+                     name="Birthdate"
+                     ng-model="Birthdate" ng-click="openpopup()" ng-keydown="ignore($event)">

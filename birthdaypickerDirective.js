@@ -35,7 +35,7 @@ mainApp.directive('birthdaypickerDirective', function() {
                 scope.availlableDays.push(i)
             }
         }
-		scope..ignore = function(e){
+		scope.ignore = function(e){
         e.preventDefault();
 		}
         scope.prevmonth = function() {
