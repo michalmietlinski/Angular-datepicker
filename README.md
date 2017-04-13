@@ -21,6 +21,8 @@ Implementation:
 
  
  Sample input:
+ ```
  <input type="text"
                      name="Birthdate"
                      ng-model="Birthdate" ng-click="openpopup()" ng-keydown="ignore($event)">
+					 ```
