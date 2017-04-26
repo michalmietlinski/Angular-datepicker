@@ -4,8 +4,8 @@
 <div class="birthday-datepicker">
     <div ng-show="infoPopup" class="ui-datepicker" id="calendar-modal" tabindex="-1" ><!--ng-blur="infopopup=false"-->
     <div class="inner-calendar" >
-        <div class="years" ng-bind="chosenYear" ng-click="infoPopup=true"></div>
-        <div class="year-popup" ng-show="infoPopup">
+        <div class="years" ng-bind="chosenYear" ng-click="yearpopup=true"></div>
+        <div class="year-popup" ng-show="yearpopup">
             <ul>
                 <li ng-repeat="year in availlableYears" ng-click="chooseyear(year)">{{year}}</li>
                 

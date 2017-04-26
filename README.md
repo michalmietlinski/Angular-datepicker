@@ -25,4 +25,8 @@ Implementation:
  <input type="text"
                      name="Birthdate"
                      ng-model="Birthdate" ng-click="openpopup()" ng-keydown="ignore($event)">
+					 <birthdaypicker-Directive></birthdaypicker-Directive>
 					 ```
+					 
+Example shown on:
+https://github.com/michalmietlinski/Useful-angular-elements

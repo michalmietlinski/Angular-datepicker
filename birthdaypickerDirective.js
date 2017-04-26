@@ -107,7 +107,7 @@ mainApp.directive('birthdaypickerDirective', function() {
         restrict: "E",
         replace: true,
         link: link,
-        templateUrl: 'content/Templates/directives/birthdaypicker.html',
+        templateUrl: 'birthdaypicker.html',
     };
 
 
